@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(251, 0, 255);
+    text-align: center;
+    margin: 0;
+}
+
+.galleryLayout {
+
+    border: solid #6821EB 5px;
+    background-image: url(/IMG/catBanner.jpg);
+    max-width: none;
+    background-size: cover;
+    height: 200px;
+    color: #3c2c3c;
+    text-shadow: -3px 1px 5px #00b0ff;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+
+/*Different Page*/
+
+
+
+
+.galleryImages {
+    margin-top: 10px;
+}
+
+#catBanner {
+    max-width: 400px;
+}
+
+.cat{
+    max-width: 400px;
+}
