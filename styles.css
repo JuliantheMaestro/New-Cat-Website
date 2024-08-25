@@ -2,18 +2,31 @@ body {
     background-color: rgb(251, 0, 255);
     text-align: center;
     margin: 0;
+    font-family: "Playwrite GB J", cursive;
 }
+
+#heading {
+    font-weight: 100px;
+    text-shadow: 1px -2px 0px antiquewhite;
+}
+
+#coverImage {
+border: solid black 20px;
+}
+
+
 
 .galleryLayout {
 
     border: solid #6821EB 5px;
     background-image: url(/IMG/catBanner.jpg);
     max-width: none;
-    background-size: cover;
+    background-size:contain;
     height: 200px;
-    color: #3c2c3c;
-    text-shadow: -3px 1px 5px #00b0ff;
+    color: #40b1f2;
+    text-shadow: -4px 1px 2px #000000;
 }
+
 
 h1 {
     display: flex;
@@ -25,15 +38,20 @@ h1 {
 
 
 
-
 .galleryImages {
-    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+
 }
 
 #catBanner {
     max-width: 400px;
 }
 
-.cat{
+.cat {
     max-width: 400px;
-}
+    margin-top: 10px;
+}                                                        
